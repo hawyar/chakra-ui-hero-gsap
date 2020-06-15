@@ -19,6 +19,7 @@ const Header = () => {
   const bg = { light: "gray.300", dark: "gray.900" }
   const text = { light: "blue.600", dark: "gray.300" }
   const smallText = { light: "blue.900", dark: "blue.400" }
+  const dividerChange = { light: "gray.50", dark: "blue.600" }
 
   const textArr = ["Cool websites", "Fancy graphics", "Bold type"]
 
@@ -97,12 +98,17 @@ const Header = () => {
               fontWeight="normal"
               color={smallText[colorMode]}
             >
-              Mika Doe- Engineer @Gatsby
+              Hawyar Farooq - Engineer @Home
             </Text>
           </TextMask>
 
           <Box ref={el => (divider = el)}>
-            <Divider height="2px" mb={6} mt={6} />
+            <Divider
+              bg={dividerChange[colorMode]}
+              height=".3px"
+              mb={6}
+              mt={6}
+            />
           </Box>
 
           <TextMask ref={el => (title2 = el)}>
