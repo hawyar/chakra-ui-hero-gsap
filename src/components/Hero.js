@@ -98,7 +98,7 @@ const Header = () => {
               fontWeight="normal"
               color={smallText[colorMode]}
             >
-              Hawyar Farooq - Softwar Engineer
+              Hawyar Farooq - Software Engineer
             </Text>
           </TextMask>
 
