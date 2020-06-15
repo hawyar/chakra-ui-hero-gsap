@@ -98,7 +98,7 @@ const Header = () => {
               fontWeight="normal"
               color={smallText[colorMode]}
             >
-              Hawyar Farooq - Engineer @Home
+              Hawyar Farooq - Softwar Engineer
             </Text>
           </TextMask>
 
@@ -118,7 +118,7 @@ const Header = () => {
               color={text[colorMode]}
               lineHeight={["2.2rem", "4.2rem", "6.2rem"]}
             >
-              Based in Austria,
+              Based in FT Wayne,
             </Heading>
           </TextMask>
 
