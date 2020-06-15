@@ -6,6 +6,7 @@ import {
   Heading,
   Box,
   Image,
+  Link,
   useColorMode,
   Divider,
   Text,
@@ -98,7 +99,10 @@ const Header = () => {
               fontWeight="normal"
               color={smallText[colorMode]}
             >
-              Hawyar Farooq - Software Engineer
+              <Link href="https://unsplash.com/photos/470eBDOc8bk">
+                Picture
+              </Link>{" "}
+              by <Link href="https://unsplash.com/@alexiby">Alex Iby</Link>
             </Text>
           </TextMask>
 

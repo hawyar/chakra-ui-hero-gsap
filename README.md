@@ -2,12 +2,15 @@
 > A showcase using Chakra-UI + GSAP
 
 
-[Live deme](https://happy-bardeen-e4a6ad.netlify.app/) 
+[Live demo](https://happy-bardeen-e4a6ad.netlify.app/) 
 
-[Codesandbox](https://codesandbox.io/s/github/hawyar/chakra-ui-hero-gsap?file=/src/pages/index.js)
+Check it out on [Codesandbox](https://codesandbox.io/s/github/hawyar/chakra-ui-hero-gsap?file=/src/pages/index.js)
 
+
+![Hero Section in dark mode](https://i.ibb.co/rMpQjKR/screencapture-localhost-8000-2020-06-15-03-18-37.png)
 
 I often have to use GSAP for some animations so I made this Gatsby + Chakra-UI + GSAP sort of starter for my own projects (not a Gatsby starter).
+
 
 
 
